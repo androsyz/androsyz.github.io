@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.menu-active {
+  @apply -rotate-180 translate-y-1;
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] ;
+}
