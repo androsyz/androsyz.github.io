@@ -7,6 +7,10 @@
   @apply -rotate-180 translate-y-1;
 }
 
+.more-menu-active {
+  @apply -rotate-180 translate-y-1.5;
+}
+
 .navbar-fixed {
   @apply fixed z-[9999] ;
 }
